@@ -1,0 +1,77 @@
+Training
+Classes: ['live', 'die']
+Attributes: ['AGE', 'FEMALE', 'STEROID', 'ANTIVIRALS', 'FATIGUE', 'MALAISE', 'ANOREXIA', 'BIGLIVER', 'FIRMLIVER', 'SPLEENPALPABLE', 'SPIDERS', 'ASCITES', 'VARICES', 'BILIRUBIN', 'SGOT', 'HISTOLOGY']
+Number of instances: 110
+Baseline classifier: live
+Training complete. Tree looks like this:
+ ASCITES = false
+    BIGLIVER = false
+       => Class: live (prob: 100%)
+    BIGLIVER = true
+       STEROID = false
+          ANOREXIA = false
+             => Class: live (prob: 100%)
+          ANOREXIA = true
+             => Class: die (prob: 100%)
+       STEROID = true
+          => Class: die (prob: 100%)
+ ASCITES = true
+    SPIDERS = false
+       FIRMLIVER = false
+          SGOT = false
+             => Class: live (prob: 100%)
+          SGOT = true
+             BIGLIVER = false
+                => Class: die (prob: 100%)
+             BIGLIVER = true
+                SPLEENPALPABLE = false
+                   ANOREXIA = false
+                      => Class: live (prob: 100%)
+                   ANOREXIA = true
+                      => Class: die (prob: 100%)
+                SPLEENPALPABLE = true
+                   => Class: live (prob: 100%)
+       FIRMLIVER = true
+          SGOT = false
+             FEMALE = false
+                HISTOLOGY = false
+                   ANOREXIA = false
+                      => Class: live (prob: 100%)
+                   ANOREXIA = true
+                      => Class: die (prob: 100%)
+                HISTOLOGY = true
+                   => Class: die (prob: 100%)
+             FEMALE = true
+                => Class: live (prob: 100%)
+          SGOT = true
+             => Class: live (prob: 100%)
+    SPIDERS = true
+       VARICES = false
+          => Class: die (prob: 100%)
+       VARICES = true
+          FIRMLIVER = false
+             BIGLIVER = false
+                => Class: live (prob: 100%)
+             BIGLIVER = true
+                STEROID = false
+                   SGOT = false
+                      HISTOLOGY = false
+                         MALAISE = false
+                            ANOREXIA = false
+                               => Class: live (prob: 100%)
+                            ANOREXIA = true
+                               => Class: die (prob: 100%)
+                         MALAISE = true
+                            => Class: live (prob: 100%)
+                      HISTOLOGY = true
+                         => Class: die (prob: 100%)
+                   SGOT = true
+                      => Class: live (prob: 100%)
+                STEROID = true
+                   => Class: live (prob: 100%)
+          FIRMLIVER = true
+             => Class: live (prob: 100%)
+
+Testing Results:
+Tree prediction accuracy: 81.5%
+Baseline prediction accuracy (live): 85.2%

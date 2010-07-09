@@ -1,0 +1,226 @@
+Line 1  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 2  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 3  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 4  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 5  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 6  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 7  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 8  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 9  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 10  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 11  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 12  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 13  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 14  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 15  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 16  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 17  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 18  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 19  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 20  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 21  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 22  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 23  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 24  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 25  matched. Expected Iris-setosa
+ and found Iris-setosa
+
+Line 26  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 27  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 28  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 29  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 30  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 31  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 32  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 33  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+*** Mismatch on line 34 . Expected Iris-versicolor
+ but found Iris-virginica
+
+Line 35  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 36  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 37  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 38  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 39  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 40  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 41  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 42  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 43  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 44  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 45  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 46  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 47  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 48  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 49  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 50  matched. Expected Iris-versicolor
+ and found Iris-versicolor
+
+Line 51  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 52  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+*** Mismatch on line 53 . Expected Iris-virginica
+ but found Iris-versicolor
+
+Line 54  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 55  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 56  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 57  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 58  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+*** Mismatch on line 59 . Expected Iris-virginica
+ but found Iris-versicolor
+
+*** Mismatch on line 60 . Expected Iris-virginica
+ but found Iris-versicolor
+
+Line 61  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 62  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 63  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+*** Mismatch on line 64 . Expected Iris-virginica
+ but found Iris-versicolor
+
+Line 65  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 66  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 67  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 68  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 69  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 70  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 71  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 72  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 73  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+Line 74  matched. Expected Iris-virginica
+ and found Iris-virginica
+
+*** Mismatch on line 75 . Expected Iris-virginica
+ but found Iris-versicolor
+
+69 / 75

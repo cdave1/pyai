@@ -1,0 +1,58 @@
+Training
+51
+149
+200
+Total entries in training set:
+200
+Entries marked as spam:
+51
+Entries marked as non-spam:
+149
+Feature occurences in sets marked as spam:
+[0.68627450980392157, 0.60784313725490191, 0.47058823529411764, 0.62745098039215685, 0.50980392156862742, 0.37254901960784315, 0.80392156862745101, 0.78431372549019607, 0.35294117647058826, 0.68627450980392157, 0.68627450980392157, 0.80392156862745101]
+Feature occurences in sets marked non-spam:
+[0.36241610738255031, 0.58389261744966447, 0.34899328859060402, 0.40268456375838924, 0.34228187919463088, 0.47651006711409394, 0.51006711409395977, 0.35570469798657717, 0.24832214765100671, 0.29530201342281881, 0.59060402684563762, 0.34228187919463088]
+Feature occurences in both:
+[0.44, 0.58499999999999996, 0.375, 0.45500000000000002, 0.38, 0.44500000000000001, 0.57999999999999996, 0.46000000000000002, 0.27000000000000002, 0.39000000000000001, 0.60999999999999999, 0.45500000000000002]
+
+Testing Results (Indicates chance of not being spam)
+[1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0]
+Spam probability: 0.007
+Non-spam probability: 1.000
+
+[0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1]
+Spam probability: 0.472
+Non-spam probability: 0.400
+
+[1, 1, 1, 1, 1, 0, 1, 0, 0, 0, 1, 1]
+Spam probability: 0.544
+Non-spam probability: 0.390
+
+[0, 1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0]
+Spam probability: 0.008
+Non-spam probability: 1.000
+
+[1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1]
+Spam probability: 0.287
+Non-spam probability: 0.471
+
+[1, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1]
+Spam probability: 0.464
+Non-spam probability: 0.385
+
+[0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0]
+Spam probability: 0.009
+Non-spam probability: 1.000
+
+[0, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1]
+Spam probability: 0.098
+Non-spam probability: 0.684
+
+[1, 1, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1]
+Spam probability: 1.000
+Non-spam probability: 0.277
+
+[1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0]
+Spam probability: 0.023
+Non-spam probability: 0.996
+
